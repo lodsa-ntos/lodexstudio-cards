@@ -1,0 +1,16 @@
+{
+    "background_color": "#ffffff",
+    "description": "A card UI project by Lodex Studio.",
+    "display": "standalone",
+    "icons": [
+        {
+            "sizes": "96x96",
+            "src": "/favicon-96x96.png",
+            "type": "image/png"
+        }
+    ],
+    "name": "Lodex Studio Cards",
+    "short_name": "Cards",
+    "start_url": ".",
+    "theme_color": "#000000"
+}

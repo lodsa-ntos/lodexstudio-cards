@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 // Tilt and shine effect for the card
 function TiltShineCard({
-  image = "/lodney-santos-developer.jpg",
+  image = "https://images.unsplash.com/photo-1661352754654-efdb81922227?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   imageAlt = "Profile illustration",
   maxTilt = 12,
   shineOpacity = 0.55,

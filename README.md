@@ -1,11 +1,8 @@
 
 # Lodex Studio Cards
 
-
 ---
 
-![GitHub stars](https://img.shields.io/github/stars/lodsa-ntos/lodexstudio-cards?style=social)
-![GitHub forks](https://img.shields.io/github/forks/lodsa-ntos/lodexstudio-cards?style=social)
 ![GitHub followers](https://img.shields.io/github/followers/lodsa-ntos?label=Follow&style=social)
 ![GitHub contributors](https://img.shields.io/github/contributors/lodsa-ntos/lodexstudio-cards)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)

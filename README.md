@@ -18,10 +18,10 @@
 
 ## � Highlights
 
-
-
 <p align="center">
-  <video src="./public/highlight-dragcards.mp4" autoplay loop muted playsinline width="480" style="margin:8px; border-radius:12px; box-shadow:0 4px 24px rgba(0,0,0,0.12);"></video>
+  <img src="./public/highlight-tiltshine.gif" alt="Tilt Shine Card Demo" width="340" style="margin:8px;" />
+  <img src="./public/highlight-swipecards.gif" alt="Swipe Cards Demo" width="340" style="margin:8px;" />
+   <img src="./public/highlight-dragcards.gif" alt="Swipe Cards Demo" width="340" style="margin:8px;" />
 </p>
 
 > See all cards in action:

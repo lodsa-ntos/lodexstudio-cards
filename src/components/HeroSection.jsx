@@ -4,12 +4,14 @@ import SwipeCards from "./cards/SwipeCards";
 import TiltShineCard from "./cards/TiltShineCard";
 import ShimmerBorderCard from "./cards/ShimmerBorderCard";
 import DragCards from "./cards/DragCards";
+import OutlineCards from "./cards/OutlineCards";
 
 function HeroSection() {
   return (
     <GlobalContainer>
-      <section className="flex items-center justify-center min-h-screen bg-neutral-950 text-white">
-        <DragCards />
+      <section className="flex items-center justify-center min-h-screen overflow-hidden bg-neutral-50">
+        <OutlineCards />
+        {/*<DragCards />*/}
         {/* 
         <ShimmerBorderCard>
           <p className="relative z-10 mb-4 w-full text-3xl font-bold text-slate-50">Shimmer Border Card</p>

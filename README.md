@@ -103,8 +103,6 @@ MIT — free for personal and commercial use.
 
 ---
 
-## 🏷️ By LodeX Studio
-
 <p align="center">
   Made with ❤️ by <a href="https://lodexstudio.com">Lodex Studio</a>
 </p>

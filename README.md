@@ -28,9 +28,9 @@
 ## 🎥 Preview
 
 <p align="center">
-  <img src="./public/highlight-tiltshine.gif" alt="Tilt Shine Card Demo" width="340" style="margin:8px;" />
-  <img src="./public/highlight-swipecards.gif" alt="Swipe Cards Demo" width="340" height="240" style="margin:8px;" />
-   <img src="./public/highlight-dragcards.gif" alt="Swipe Cards Demo" width="340" height="240" style="margin:8px;" />
+  <img src="./public/highlight-tiltshine.gif" alt="Tilt Shine Card React demo animation" width="340" style="margin:8px;" />
+  <img src="./public/highlight-swipecards.gif" alt="Swipeable Cards React demo" width="340" height="240" style="margin:8px;" />
+   <img src="./public/highlight-dragcards.gif" alt="Drag Cards React Demo" width="340" height="240" style="margin:8px;" />
 </p>
 
 ---

@@ -1,8 +1,6 @@
 
 # <h1 align="center"> Lodex Studio Cards </h1>
 
----
-
 <p align="center">
   <a href="#"><img src="https://img.shields.io/github/stars/lodsa-ntos/lodexstudio-cards?style=flat-square"></a>
   <a href="#"><img src="https://img.shields.io/github/forks/lodsa-ntos/lodexstudio-cards?style=flat-square"></a>

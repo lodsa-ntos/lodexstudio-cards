@@ -94,9 +94,9 @@ Contributions, issues, and feature requests are welcome! Feel free to open an is
 
 ---
 
-## 📄 License
+## 📜 License
 
-MIT — free for personal and commercial use.
+Distributed under the MIT License. See [LICENSE](./LICENSE) for details.
 
 ---
 

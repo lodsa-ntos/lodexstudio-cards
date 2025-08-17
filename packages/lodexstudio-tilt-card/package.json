@@ -1,16 +1,25 @@
 {
   "name": "@lodexstudio/tilt-card",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "module": "dist/index.module.js",
   "license": "MIT",
   "description": "A 3D tilt and shine effect card component for React.",
-  "keywords": ["react", "card", "tilt", "shine", "ui", "component"],
+  "keywords": [
+    "react",
+    "card",
+    "tilt",
+    "shine",
+    "ui",
+    "component"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/lodsa-ntos/lodexstudio-cards"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "sideEffects": false,
   "peerDependencies": {
     "react": ">=18",
@@ -21,6 +30,8 @@
     "build": "vite build",
     "dev": "vite"
   },
-  "publishConfig": { "access": "public" },
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "LodeX Studio"
 }

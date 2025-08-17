@@ -1,16 +1,25 @@
 {
   "name": "@lodexstudio/drag-cards",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "module": "dist/index.module.js",
   "license": "MIT",
   "description": "A draggable floating card component for React.",
-  "keywords": ["react", "card", "drag", "draggable", "ui", "component"],
+  "keywords": [
+    "react",
+    "card",
+    "drag",
+    "draggable",
+    "ui",
+    "component"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/lodsa-ntos/lodexstudio-cards"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "sideEffects": false,
   "peerDependencies": {
     "react": ">=18",
@@ -21,6 +30,8 @@
     "build": "vite build",
     "dev": "vite"
   },
-  "publishConfig": { "access": "public" },
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "LodeX Studio"
 }

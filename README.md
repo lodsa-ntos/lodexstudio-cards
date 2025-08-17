@@ -15,13 +15,9 @@
 
 👉 [Live Demo](https://lodexstudio-cards.vercel.app) | [Docs](#) | [Report Bug](https://github.com/lodsa-ntos/lodexstudio-cards/issues)
 
----
-
 ## � Overview
 
 **Lodex Studio Cards** is a collection of 6 interactive components for React, focusing on **motion, micro-interactions, and modern UI**. Ideal for **portfolios, landing pages, and creative showcases**.
-
----
 
 ## 🎥 Preview
 
@@ -30,8 +26,6 @@
   <img src="./public/highlight-swipecards.gif" alt="Swipeable Cards React demo" width="340" height="240" style="margin:8px;" />
    <img src="./public/highlight-dragcards.gif" alt="Drag Cards React Demo" width="340" height="240" style="margin:8px;" />
 </p>
-
----
 
 ## 🎨 Card Components
 
@@ -42,8 +36,6 @@
 - [Outline Cards](https://github.com/lodsa-ntos/outline-cards) — Minimal outline hover cards
 - [Color Change Cards](https://github.com/lodsa-ntos/color-change-cards) — Colorful hover transitions
 
----
-
 ## ⚡ Features
 
 - ✅ 6 unique components ready for production
@@ -51,8 +43,6 @@
 - ✅ Fully responsive and accessible
 - ✅ Simple customisation (plug & play)
 - ✅ MIT — free for personal and commercial use
-
----
 
 ## 🚀 Quick Start
 
@@ -64,8 +54,6 @@ npm run dev
 ```
 
 Open [Lodex Studio Cards](https://lodexstudio-cards.vercel.app/) to view the demo grid.
-
----
 
 ## 📦 Installation
 
@@ -80,8 +68,6 @@ yarn add lodexstudio-cards
 pnpm add lodexstudio-cards
 ```
 
----
-
 ## 💻 Usage
 
 Import any card component into your project:
@@ -94,19 +80,13 @@ export default function App() {
 }
 ```
 
----
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome! Feel free to open an issue or submit a pull request.
 
----
-
 ## 📜 License
 
 Distributed under the MIT License. See [LICENSE](./LICENSE) for details.
-
----
 
 <p align="center">
   ⭐ If this project helped you, leave a star on GitHub!

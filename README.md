@@ -104,5 +104,6 @@ Distributed under the MIT License. See [LICENSE](./LICENSE) for details.
 ---
 
 <p align="center">
+  ⭐ If this project helped you, leave a star on GitHub!
   Made with ❤️ by <a href="https://lodexstudio.com">Lodex Studio</a>
 </p>

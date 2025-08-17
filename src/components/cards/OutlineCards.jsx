@@ -19,7 +19,9 @@ function OutlineCards() {
     },
   ];
 
+  // Cursor state
   const [isHovered, setIsHovered] = useState(false);
+  // Cursor position
   const [position, setPosition] = useState({ x: 0, y: 0 });
 
   // Follow the mouse position
@@ -43,11 +45,15 @@ function OutlineCards() {
       >
       </div>
       )}
+
+      {/* Card links */}
       {cards.map((card) => (
         <a
           key={card.id}
+          onMouseEnter={() => setIsHovered(true)}
+          onMouseLeave={() => setIsHovered(false)}
           href="#"
-          className="group relative flex w-full flex-col overflow-hidden rounded-lg shadow-xl shadow-neutral-900/30"
+          className="group relative flex w-full flex-col overflow-hidden rounded-lg shadow-xl shadow-neutral-900/30  hover:outline hover:outline-4 hover:outline-purple-500"
         >
           {/* Image wrapper: remove fixed square, let image ratio define height. Use object-cover for better fit. */}
           <img
@@ -62,6 +68,8 @@ function OutlineCards() {
             <h3 className="text-xl font-medium text-white md:text-2xl drop-shadow">
               {card.title}
             </h3>
+
+            {/* Card icon */}
             <svg
               stroke="currentColor"
               fill="none"

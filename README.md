@@ -45,11 +45,11 @@
 
 ## 🚀 Features
 
-- 6 unique, production-ready card components
-- Modern React + Tailwind CSS
-- Fully responsive and accessible
-- Easy to customize and extend
-- MIT licensed, open source
+- ✅ 6 componentes únicos prontos para produção
+- ✅ Feitos com React + Tailwind CSS + Framer Motion
+- ✅ Totalmente responsivos e acessíveis
+- ✅ Customização simples (plug & play)
+- ✅ MIT — livre para uso pessoal e comercial
 
 ---
 
@@ -64,6 +64,17 @@ npm run dev
 
 Open [http://localhost:5173](http://localhost:5173) to view the demo grid.
 
+
+```bash
+# via npm
+npm install lodexstudio-cards
+
+# via yarn
+yarn add lodexstudio-cards
+
+# via pnpm
+pnpm add lodexstudio-cards
+```
 ---
 
 ## 🛠️ Usage
@@ -71,10 +82,10 @@ Open [http://localhost:5173](http://localhost:5173) to view the demo grid.
 Import any card component into your project:
 
 ```jsx
-import TiltShineCard from './components/cards/TiltShineCard';
+import { TiltShineCard } from "lodexstudio-cards";
 
-function MyPage() {
- return <TiltShineCard />;
+export default function App() {
+  return <TiltShineCard />;
 }
 ```
 

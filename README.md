@@ -75,6 +75,7 @@ yarn add lodexstudio-cards
 # via pnpm
 pnpm add lodexstudio-cards
 ```
+
 ---
 
 ## 🛠️ Usage

@@ -4,17 +4,17 @@ function OutlineCards() {
   const cards = [
     {
       id: 1,
-      title: "Outline Card",
+      title: "Popular fair",
       img: "https://plus.unsplash.com/premium_photo-1701454740269-633e9e0a3912?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       id: 2,
-      title: "Outline Card",
+      title: "Summer beach",
       img: "https://images.unsplash.com/photo-1754901350480-c0fdd1a427b4?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       id: 3,
-      title: "Outline Card",
+      title: "Culture",
       img: "https://images.unsplash.com/photo-1742201473141-07daabc7a327?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
   ];

@@ -41,16 +41,17 @@ export default function DemoGrid() {
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-950 py-16 px-4">
       <div className=" w-full max-w-7xl mx-auto px-12 inline-flex flex-col items-center justify-center gap-2 pb-20">
         <img
-        src="/lodexstudio-logo-secundario.png"
-        alt="lodex.studio logo"
-        className="h-6 sm:h-8 md:h-10 lg:h-12 w-auto max-w-[180px] object-contain flex items-center justify-center"
-      />
-      <h1 className="text-4xl font-bold text-center text-white tracking-tight">
-        Lodex Studio Cards Demo
-      </h1>
-      <p className="text-center text-xl text-gray-400 py-5">
-        Collection of interactive cards made with React + Framer Motion + Tailwind.
-      </p>
+          src="/lodexstudio-logo-secundario.png"
+          alt="lodex.studio logo"
+          className="h-6 sm:h-8 md:h-10 lg:h-12 w-auto max-w-[180px] object-contain flex items-center justify-center"
+        />
+        <h1 className="text-4xl font-bold text-center text-white tracking-tight">
+          Lodex Studio Cards Demo
+        </h1>
+        <p className="text-center text-xl text-gray-400 py-5">
+          Collection of interactive cards made with React + Framer Motion +
+          Tailwind.
+        </p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 max-w-7xl mx-auto">
@@ -63,8 +64,32 @@ export default function DemoGrid() {
         <SingleSection key={label + i} Comp={Comp} label={label} />
       ))}
 
-      <div className="mt-12 flex justify-center">
-        <img src="/lodex-badge.svg" alt="by LodeX Studio" className="h-8" />
+      <div className="flex flex-col items-center justify-center lg:flex-row gap-4">
+        <p className="text-gray-400  transition-colors duration-500 text-sm font-Satoshi">
+          © {new Date().getFullYear()} LodeX Studio. All rights reserved.
+        </p>
+        <div className="flex items-center lg:flex-row gap-2 text-xs ">
+          <a
+            href="/privacidade"
+            className="text-gray-400 transition-colors duration-300"
+          >
+            GitHub
+          </a>
+          <span className="text-gray-400">|</span>
+          <a
+            href="/termos"
+            className="text-gray-400  transition-colors duration-300"
+          >
+            Site
+          </a>
+          <span className="text-gray-400">|</span>
+          <a
+            href="/termos"
+            className="text-gray-400  transition-colors duration-300"
+          >
+            Instagram
+          </a>
+        </div>
       </div>
     </div>
   );

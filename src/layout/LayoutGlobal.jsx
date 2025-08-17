@@ -11,8 +11,6 @@ function LayoutGlobal() {
       {/* Conteúdo principal */}
       <Outlet />
 
-      <FooterSection />
-
       {/* Toast Notifications */}
       <ToastContainer
         position="top-center"

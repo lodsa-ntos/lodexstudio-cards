@@ -64,7 +64,6 @@ npm run dev
 
 Open [http://localhost:5173](http://localhost:5173) to view the demo grid.
 
-
 ```bash
 # via npm
 npm install lodexstudio-cards
@@ -98,12 +97,14 @@ Contributions, issues, and feature requests are welcome! Feel free to open an is
 
 ---
 
-## 🏷️ By LodeX Studio
-
-<img src="public/lodex-badge.svg" alt="by LodeX Studio" height="32" />
-
----
-
 ## 📄 License
 
 MIT — free for personal and commercial use.
+
+---
+
+## 🏷️ By LodeX Studio
+
+<p align="center">
+  Made with ❤️ by <a href="https://lodexstudio.com">Lodex Studio</a>
+</p>

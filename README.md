@@ -16,7 +16,8 @@
 
 ## � Overview
 
-**Lodex Studio Cards** is a visually striking collection of 6 interactive card UI components for React, designed for modern web projects. Each card demonstrates a unique animation or interaction, perfect for portfolios, landing pages, and creative showcases.
+**Lodex Studio Cards** is a collection of 6 interactive components for React, focusing on **motion, micro-interactions, and modern UI**.  
+Ideal for **portfolios, landing pages, and creative showcases**.
 
 ---
 

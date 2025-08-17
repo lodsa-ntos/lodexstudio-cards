@@ -45,11 +45,11 @@
 
 ## 🚀 Features
 
-- ✅ 6 componentes únicos prontos para produção
-- ✅ Feitos com React + Tailwind CSS + Framer Motion
-- ✅ Totalmente responsivos e acessíveis
-- ✅ Customização simples (plug & play)
-- ✅ MIT — livre para uso pessoal e comercial
+- ✅ 6 unique components ready for production
+- ✅ Made with React + Tailwind CSS + Framer Motion
+- ✅ Fully responsive and accessible
+- ✅ Simple customisation (plug & play)
+- ✅ MIT — free for personal and commercial use
 
 ---
 

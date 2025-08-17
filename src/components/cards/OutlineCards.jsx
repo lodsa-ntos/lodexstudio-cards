@@ -40,7 +40,7 @@ function OutlineCards() {
       {/* Cursor custom */}
       { !isHovered && (
         <div
-        className="fixed w-8 h-8 border-2 border-purple-500 rounded-full pointer-events-none transition-transform duration-500"
+        className="fixed w-8 h-8 border-2 border-[#004AAD] rounded-full pointer-events-none transition-transform duration-500"
         style={{ left: position.x - 16, top: position.y - 16 }}
       >
       </div>

@@ -1,11 +1,10 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import LayoutGlobal from "./layout/LayoutGlobal";
-import LandingPage from "./pages/LandingPage";
-import NotFound from "./pages/NotFound";
-import ErrorBoundary from "./layout/ErrorBoundary";
-import "./index.css";
-import "react-toastify/dist/ReactToastify.css";
+import LayoutGlobal from "../src/layout/LayoutGlobal";
+import LandingPage from "../src/pages/LandingPage";
+import NotFound from "../src/pages/NotFound";
+import ErrorBoundary from "../src/layout/ErrorBoundary";
+import DemoGrid from "./pages/DemoGrid";
 
 function App() {
   return (
@@ -13,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<LayoutGlobal />}>
           <Route index element={<LandingPage />} />
+          <Route path="/demo" element={<DemoGrid />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

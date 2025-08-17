@@ -36,6 +36,15 @@
 - [Outline Cards](https://github.com/lodsa-ntos/outline-cards) — Minimal outline hover cards
 - [Color Change Cards](https://github.com/lodsa-ntos/color-change-cards) — Colorful hover transitions
 
+## Individual Repositories
+Prefer using just one card?  
+- Tilt Shine → https://github.com/SEUUSER/lodex-tilt-card
+- Swipe Cards → https://github.com/SEUUSER/lodex-swipe-cards
+- Drag Cards → https://github.com/SEUUSER/lodex-drag-cards
+- Shimmer Border → https://github.com/SEUUSER/lodex-shimmer-border-card
+- Outline Cards → https://github.com/SEUUSER/lodex-outline-cards
+- Color Change → https://github.com/SEUUSER/lodex-colorchange-card
+
 ## ⚡ Features
 
 - ✅ 6 unique components ready for production

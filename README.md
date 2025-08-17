@@ -1,7 +1,6 @@
 
 # Lodex Studio Cards
 
-![Demo Grid Screenshot](public/demo-grid-screenshot.png)
 
 ---
 
@@ -18,6 +17,18 @@
 ## � Overview
 
 **Lodex Studio Cards** is a visually striking collection of 6 interactive card UI components for React, designed for modern web projects. Each card demonstrates a unique animation or interaction, perfect for portfolios, landing pages, and creative showcases.
+
+---
+
+## �🃏 Demo Grid
+
+> See all cards in action:
+
+<p align="center">
+  <img src="./public/demo-grid-screenshot.png" alt="Lodex Studio Cards Demo" />
+</p>
+
+👉 [Live Demo](https://lodexstudio-cards.vercel.app) · [Report Bug](https://github.com/lodsa-ntos/lodexstudio-cards/issues) · [Request Feature](https://github.com/lodsa-ntos/lodexstudio-cards/issues)
 
 ---
 

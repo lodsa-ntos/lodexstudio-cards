@@ -1,6 +1,7 @@
 import React from "react";
 
 function ColorChangeCards() {
+  // Sample data for the cards
   const cards = [
     {
       id: 1,
@@ -31,16 +32,19 @@ function ColorChangeCards() {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-8 w-full max-w-6xl mx-auto">
       {cards.map((card) => {
+        // Generate unique IDs for accessibility
         const titleId = `color-change-title-${card.id}`;
         const descId = `color-change-desc-${card.id}`;
         return (
           <article key={card.id} className="w-full h-64">
+            {/** Card Link */}
             <a
               href="#"
               className="group relative block w-full h-full rounded-lg overflow-hidden focus:outline-none focus-visible:ring-4 ring-indigo-500 ring-offset-2 ring-offset-white dark:ring-offset-slate-900"
               aria-labelledby={titleId}
               aria-describedby={descId}
             >
+                {/** Card Image */}
               <figure className="absolute inset-0">
                 <img
                   src={card.img}
@@ -54,6 +58,7 @@ function ColorChangeCards() {
                 />
               </figure>
 
+                {/** Card Content */}
               <div className="relative z-10 h-full p-4 text-slate-100 flex flex-col justify-between">
                 <svg
                   stroke="currentColor"

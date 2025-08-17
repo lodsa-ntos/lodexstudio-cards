@@ -20,7 +20,7 @@ export default function DemoGrid() {
 
     const CardItem = ({ Comp, label }) => (
         <div className="flex flex-col items-center justify-center gap-5">
-            <Comp />
+            <Comp />{Comp}
             <p className="mt-2 text-center text-xl text-white">{label}</p>
         </div>
     );
@@ -28,7 +28,7 @@ export default function DemoGrid() {
     const SingleSection = ({ Comp, label }) => (
         <div className="py-20">
             <div className="flex flex-col items-center justify-center gap-5">
-                <Comp />
+                <Comp />{Comp}
                 <p className="mt-4 text-center text-xl text-white">{label}</p>
             </div>
         </div>

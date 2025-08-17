@@ -25,7 +25,7 @@
 
 ---
 
-## � Highlights
+## 🎥 Preview
 
 <p align="center">
   <img src="./public/highlight-tiltshine.gif" alt="Tilt Shine Card Demo" width="340" style="margin:8px;" />

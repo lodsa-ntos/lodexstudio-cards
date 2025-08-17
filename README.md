@@ -1,12 +1,14 @@
 
-# Lodex Studio Cards
+# <h1 align="center"> Lodex Studio Cards </h1>
 
 ---
 
-![Stars](https://img.shields.io/github/stars/lodsa-ntos/lodexstudio-cards?style=flat-square)
-![Forks](https://img.shields.io/github/forks/lodsa-ntos/lodexstudio-cards?style=flat-square)
-![Issues](https://img.shields.io/github/issues/lodsa-ntos/lodexstudio-cards?style=flat-square)
-![License](https://img.shields.io/github/license/lodsa-ntos/lodexstudio-cards?style=flat-square)
+<p align="center">
+  <a href="#"><img src="https://img.shields.io/github/stars/lodsa-ntos/lodexstudio-cards?style=flat-square"></a>
+  <a href="#"><img src="https://img.shields.io/github/forks/lodsa-ntos/lodexstudio-cards?style=flat-square"></a>
+  <a href="#"><img src="https://img.shields.io/github/issues/lodsa-ntos/lodexstudio-cards?style=flat-square"></a>
+  <a href="#"><img src="https://img.shields.io/github/license/lodsa-ntos/lodexstudio-cards?style=flat-square"></a>
+</p>
 
 ---
 

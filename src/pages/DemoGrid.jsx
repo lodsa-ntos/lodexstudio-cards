@@ -7,90 +7,127 @@ import SwipeCards from "../components/cards/SwipeCards";
 import GlobalContainer from "../utils/GlobalContainer";
 
 export default function DemoGrid() {
-  const gridItems = [
-    { Comp: TiltShineCard, label: "Tilt Shine Card" },
-    { Comp: SwipeCards, label: "Swipe Cards" },
-    { Comp: ShimmerBorderCard, label: "Shimmer Border Card" },
-  ];
+    // Section definitions
+    const sections = [
+        {
+            title: "Interactive Effects",
+            subtitle: "Tilt, shimmer & future hover based micro‑interactions.",
+            items: [
+                { Comp: TiltShineCard, label: "Tilt Shine Card" },
+                { Comp: ShimmerBorderCard, label: "Shimmer Border Card" },
+                // { Comp: HoverCard, label: "Hover Effect Card" } // (future)
+            ],
+        },
+        {
+            title: "Motion Cards",
+            subtitle: "Kinetic patterns for modern UI motion experiments.",
+            items: [
+                { Comp: DragCards, label: "Drag Cards" },
+                { Comp: SwipeCards, label: "Swipe Cards" },
+                // { Comp: ShuffleCards, label: "Shuffle Cards" } // (future)
+            ],
+        },
+        {
+            title: "Content / UI Cards",
+            subtitle: "Layout, outline and color adaptation patterns.",
+            items: [
+                { Comp: OutlineCards, label: "Outline Cards" },
+                { Comp: ColorChangeCards, label: "Color Change Cards" },
+            ],
+        },
+    ];
 
-  const singleSections = [
-    { Comp: DragCards, label: "Drag Cards" },
-    { Comp: OutlineCards, label: "Outline Cards" },
-    { Comp: ColorChangeCards, label: "Color Change Cards" },
-  ];
-
-  const CardItem = ({ Comp, label }) => (
-    <div className="flex flex-col items-center justify-center gap-5">
-      <Comp />
-      {Comp}
-      <p className="mt-2 text-center text-xl text-white">{label}</p>
-    </div>
-  );
-
-  const SingleSection = ({ Comp, label }) => (
-    <div className="py-20">
-      <div className="flex flex-col items-center justify-center gap-5">
-        <Comp />
-        {Comp}
-        <p className="mt-4 text-center text-xl text-white">{label}</p>
-      </div>
-    </div>
-  );
-
-  return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-950 py-16 px-4">
-      <div className=" w-full max-w-7xl mx-auto px-12 inline-flex flex-col items-center justify-center gap-2 pb-20">
-        <img
-          src="/lodexstudio-logo-secundario.png"
-          alt="lodex.studio logo"
-          className="h-6 sm:h-8 md:h-10 lg:h-12 w-auto max-w-[180px] object-contain flex items-center justify-center"
-        />
-        <h1 className="text-4xl font-bold text-center text-white tracking-tight">
-          Lodex Studio Cards Demo
-        </h1>
-        <p className="text-center text-xl text-gray-400 py-5">
-          Collection of interactive cards made with React + Framer Motion +
-          Tailwind.
-        </p>
-      </div>
-
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 max-w-7xl mx-auto">
-        {gridItems.map(({ Comp, label }, i) => (
-          <CardItem key={label + i} Comp={Comp} label={label} />
-        ))}
-      </div>
-
-      {singleSections.map(({ Comp, label }, i) => (
-        <SingleSection key={label + i} Comp={Comp} label={label} />
-      ))}
-
-      <div className="flex flex-col items-center justify-center lg:flex-row gap-4">
-        <p className="text-gray-400  transition-colors duration-500 text-sm font-Satoshi">
-          © {new Date().getFullYear()} LodeX Studio. All rights reserved.
-        </p>
-        <div className="flex items-center lg:flex-row gap-2 text-xs ">
-          <a
-            href="https://github.com/lodsa-ntos/lodexstudio-cards"
-            className="text-gray-400 transition-colors duration-300"
-          >
-            GitHub
-          </a>
-          <span className="text-gray-400">|</span>
-          <a
-            href="https://lodexstudio.com/"
-            className="text-gray-400  transition-colors duration-300"
-          >
-            Site
-          </a>
-          <span className="text-gray-400">|</span>
-          <a
-            href="https://www.instagram.com/lodex.studio/"
-            className="text-gray-400  transition-colors duration-300"
-          >
-            Instagram
-          </a>
+    const CardPreview = ({ Comp, label }) => (
+        <div className="flex flex-col items-center justify-start gap-4">
+            <Comp />{Comp}
+            <p className="text-center text-sm md:text-base text-gray-300">{label}</p>
         </div>
-      </div>
-    </div>
-  );
+    );
+
+    return (
+        <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-950 py-16 px-4">
+            {/* Hero */}
+            <div className="w-full max-w-7xl mx-auto px-6 md:px-12 flex flex-col items-center gap-4 pb-16">
+                <img
+                    src="/lodexstudio-logo-secundario.png"
+                    alt="lodex.studio logo"
+                    className="h-8 md:h-10 lg:h-12 w-auto object-contain"
+                />
+                <h1 className="text-4xl font-bold text-center text-white tracking-tight">
+                    Lodex Studio Cards Demo
+                </h1>
+                <p className="text-center text-lg md:text-xl text-gray-400 max-w-2xl">
+                    Collection of interactive cards built with React, Framer Motion &
+                    Tailwind CSS. Organised by purpose for quick discovery.
+                </p>
+            </div>
+
+            {/* Sections */}
+            <div className="space-y-40 max-w-7xl mx-auto">
+                {sections.map(({ title, subtitle, items }, i) => (
+                    <section key={title + i} className="space-y-10">
+                        <header className="px-2 md:px-4">
+                            <h2 className="text-2xl md:text-3xl font-semibold text-white tracking-tight">
+                                {title}
+                            </h2>
+                            <p className="mt-2 text-gray-400 text-sm md:text-base max-w-2xl">
+                                {subtitle}
+                            </p>
+                        </header>
+
+                        {title === "Interactive Effects" ? (
+                            <div className="grid gap-10 grid-cols-1 sm:grid-cols-2">
+                                {items.map(({ Comp, label }, j) => (
+                                    <CardPreview key={label + j} Comp={Comp} label={label} />
+                                ))}
+                            </div>
+                        ) : (
+                            <div className="flex flex-col gap-10">
+                                {items.map(({ Comp, label }, j) => (
+                                    <CardPreview key={label + j} Comp={Comp} label={label} />
+                                ))}
+                            </div>
+                        )}
+                    </section>
+                ))}
+            </div>
+
+            {/* Footer */}
+            <div className="mt-28 flex flex-col items-center justify-center  gap-4">
+                <div className="flex items-center lg:flex-row gap-2 text-xs">
+                    <p className="text-gray-400 transition-colors duration-500 text-sm font-Satoshi mr-2">
+                        © {new Date().getFullYear()} LodeX Studio. All rights reserved.
+                    </p>
+                    <a
+                        href="https://github.com/lodsa-ntos/lodexstudio-cards"
+                        target="_blank"
+                        className="text-gray-400 hover:text-white transition-colors duration-300"
+                    >
+                        GitHub
+                    </a>
+                    <span className="text-gray-600">|</span>
+                    <a
+                        href="https://lodexstudio.com/"
+                        target="_blank"
+                        className="text-gray-400 hover:text-white transition-colors duration-300"
+                    >
+                        Site
+                    </a>
+                    <span className="text-gray-600">|</span>
+                    <a
+                        href="https://www.instagram.com/lodex.studio/"
+                        target="_blank"
+                        className="text-gray-400 hover:text-white transition-colors duration-300"
+                    >
+                        Instagram
+                    </a>
+                </div>
+                <div className="italic">
+                    <p className="text-gray-400 transition-colors duration-500 text-xs font-Satoshi">
+                        Part of the Lodex Studio UI Experiments series
+                    </p>
+                </div>
+            </div>
+        </div>
+    );
 }

@@ -40,7 +40,7 @@ function OutlineCards() {
       {/* Cursor custom */}
       { !isHovered && (
         <div
-        className="fixed w-8 h-8 border-2 border-purple-500 rounded-full pointer-events-none transition-transform duration-500"
+        className="fixed w-8 h-8 border-2 border-indigo-500 rounded-full pointer-events-none transition-transform duration-500"
         style={{ left: position.x - 16, top: position.y - 16 }}
       >
       </div>
@@ -53,7 +53,7 @@ function OutlineCards() {
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
           href="#"
-          className="group relative flex w-full flex-col overflow-hidden rounded-lg shadow-xl shadow-neutral-900/30  hover:outline hover:outline-4 hover:outline-purple-500"
+          className="group relative flex w-full flex-col overflow-hidden rounded-lg shadow-xl shadow-neutral-900/30  hover:outline hover:outline-4 hover:outline-indigo-500"
         >
           {/* Image wrapper: remove fixed square, let image ratio define height. Use object-cover for better fit. */}
           <img

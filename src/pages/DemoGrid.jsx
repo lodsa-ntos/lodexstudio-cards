@@ -11,7 +11,7 @@ export default function DemoGrid() {
     const sections = [
         {
             title: "Interactive Effects",
-            subtitle: "Tilt, shimmer & future hover based micro‑interactions.",
+            subtitle: "Tilt & Shimmer based interactions",
             items: [
                 { Comp: TiltShineCard, label: "Tilt Shine Card" },
                 { Comp: ShimmerBorderCard, label: "Shimmer Border Card" },
@@ -20,7 +20,7 @@ export default function DemoGrid() {
         },
         {
             title: "Motion Cards",
-            subtitle: "Kinetic patterns for modern UI motion experiments.",
+            subtitle: "Drag & Swipe kinetic UI patterns",
             items: [
                 { Comp: DragCards, label: "Drag Cards" },
                 { Comp: SwipeCards, label: "Swipe Cards" },
@@ -29,7 +29,7 @@ export default function DemoGrid() {
         },
         {
             title: "Content / UI Cards",
-            subtitle: "Layout, outline and color adaptation patterns.",
+            subtitle: "Layout, outline and color adaptation for UI.",
             items: [
                 { Comp: OutlineCards, label: "Outline Cards" },
                 { Comp: ColorChangeCards, label: "Color Change Cards" },
@@ -39,8 +39,8 @@ export default function DemoGrid() {
 
     const CardPreview = ({ Comp, label }) => (
         <div className="flex flex-col items-center justify-start gap-4">
-            <Comp />{Comp}
             <p className="text-center text-sm md:text-base text-gray-300">{label}</p>
+            <Comp />{Comp}
         </div>
     );
 
@@ -63,7 +63,7 @@ export default function DemoGrid() {
             </div>
 
             {/* Sections */}
-            <div className="space-y-40 max-w-7xl mx-auto">
+            <div className="space-y-40 py-20max-w-7xl mx-auto">
                 {sections.map(({ title, subtitle, items }, i) => (
                     <section key={title + i} className="space-y-10">
                         <header className="px-2 md:px-4">
@@ -82,7 +82,7 @@ export default function DemoGrid() {
                                 ))}
                             </div>
                         ) : (
-                            <div className="flex flex-col gap-10">
+                            <div className="flex flex-col gap-20">
                                 {items.map(({ Comp, label }, j) => (
                                     <CardPreview key={label + j} Comp={Comp} label={label} />
                                 ))}

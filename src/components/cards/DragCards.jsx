@@ -21,7 +21,7 @@ const FloatingImages = () => {
   const containerRef = useRef(null);
 
   return (
-    <div className="absolute inset-0 z-10" ref={containerRef}>
+    <div className="absolute inset-0 z-10 -mt-28 mb-20" ref={containerRef}>
       <InteractiveCard
         containerRef={containerRef}
         src="https://images.unsplash.com/photo-1532798369041-b33eb576ef16?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -118,6 +118,7 @@ const InteractiveCard = ({ containerRef, src, alt, top, left, rotate, className 
         rotate,
         zIndex,
       }}
+      // Photo card container
       className={twMerge(
         "drag-elements absolute w-48 bg-neutral-200 p-1 pb-4",
         className

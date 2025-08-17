@@ -70,21 +70,21 @@ export default function DemoGrid() {
         </p>
         <div className="flex items-center lg:flex-row gap-2 text-xs ">
           <a
-            href="/privacidade"
+            href="https://github.com/lodsa-ntos/lodexstudio-cards"
             className="text-gray-400 transition-colors duration-300"
           >
             GitHub
           </a>
           <span className="text-gray-400">|</span>
           <a
-            href="/termos"
+            href="https://lodexstudio.com/"
             className="text-gray-400  transition-colors duration-300"
           >
             Site
           </a>
           <span className="text-gray-400">|</span>
           <a
-            href="/termos"
+            href="https://www.instagram.com/lodex.studio/"
             className="text-gray-400  transition-colors duration-300"
           >
             Instagram

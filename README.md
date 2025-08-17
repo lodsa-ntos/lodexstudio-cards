@@ -25,11 +25,11 @@
   <img src="./public/demo-grid-screenshot.png" alt="Lodex Studio Cards Demo" />
 </p>
 
-👉 [Live Demo](https://lodexstudio-cards.vercel.app) · [Report Bug](https://github.com/lodsa-ntos/lodexstudio-cards/issues) · [Request Feature](https://github.com/lodsa-ntos/lodexstudio-cards/issues)
+👉 [Live Demo](https://lodexstudio-cards.vercel.app) · [Documentation](#) · [Report Bug](https://github.com/lodsa-ntos/lodexstudio-cards/issues)
 
 ---
 
-## ✨ Card Components
+## 🎨 Card Components
 
 - [Tilt Shine Card](https://github.com/lodsa-ntos/tilt-shine-card) — 3D tilt and shine effect
 - [Swipe Cards](https://github.com/lodsa-ntos/swipe-cards) — Tinder-style swipeable cards
@@ -40,7 +40,7 @@
 
 ---
 
-## 🚀 Features
+## ⚡ Features
 
 - ✅ 6 unique components ready for production
 - ✅ Made with React + Tailwind CSS + Framer Motion
@@ -50,7 +50,7 @@
 
 ---
 
-## 🏁 Quick Start
+## 🚀 Quick Start
 
 ```bash
 git clone https://github.com/lodsa-ntos/lodexstudio-cards.git
@@ -60,6 +60,10 @@ npm run dev
 ```
 
 Open [http://localhost:5173](http://localhost:5173) to view the demo grid.
+
+---
+
+## 📦 Installation
 
 ```bash
 # via npm
@@ -74,7 +78,7 @@ pnpm add lodexstudio-cards
 
 ---
 
-## 🛠️ Usage
+## 💻 Usage
 
 Import any card component into your project:
 

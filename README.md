@@ -5,13 +5,10 @@
 
 ---
 
-![GitHub stars](https://img.shields.io/github/stars/lodsa-ntos/lodexstudio-cards?style=social)
-![GitHub forks](https://img.shields.io/github/forks/lodsa-ntos/lodexstudio-cards?style=social)
-![GitHub followers](https://img.shields.io/github/followers/lodsa-ntos?label=Follow&style=social)
-![GitHub contributors](https://img.shields.io/github/contributors/lodsa-ntos/lodexstudio-cards)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
-![MIT License](https://img.shields.io/badge/license-MIT-green)
-![Open in Visual Studio Code](https://img.shields.io/badge/Open%20in-VS%20Code-blue?logo=visualstudiocode&logoColor=white)
+![Stars](https://img.shields.io/github/stars/lodsa-ntos/lodexstudio-cards?style=for-the-badge)
+![Forks](https://img.shields.io/github/forks/lodsa-ntos/lodexstudio-cards?style=for-the-badge)
+![Issues](https://img.shields.io/github/issues/lodsa-ntos/lodexstudio-cards?style=for-the-badge)
+![License](https://img.shields.io/github/license/lodsa-ntos/lodexstudio-cards?style=for-the-badge)
 
 ---
 

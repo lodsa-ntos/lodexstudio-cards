@@ -5,12 +5,14 @@ import TiltShineCard from "./cards/TiltShineCard";
 import ShimmerBorderCard from "./cards/ShimmerBorderCard";
 import DragCards from "./cards/DragCards";
 import OutlineCards from "./cards/OutlineCards";
+import ColorChangeCards from "./cards/ColorChangeCards";
 
 function HeroSection() {
   return (
     <GlobalContainer>
       <section className="flex items-center justify-center min-h-screen overflow-hidden bg-neutral-50">
-        <OutlineCards />
+        <ColorChangeCards />
+        {/*<OutlineCards />*/}
         {/*<DragCards />*/}
         {/* 
         <ShimmerBorderCard>

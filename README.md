@@ -10,6 +10,13 @@
   <a href="#"><img src="https://img.shields.io/github/license/lodsa-ntos/lodexstudio-cards?style=flat-square"></a>
 </p>
 
+> See all cards in action:
+<p align="center">
+  <img src="./public/demo-grid-screenshot.png" alt="Lodex Studio Cards Demo" />
+</p>
+
+👉 [Live Demo](https://lodexstudio-cards.vercel.app) | [Docs](#) | [Report Bug](https://github.com/lodsa-ntos/lodexstudio-cards/issues)
+
 ---
 
 ## � Overview
@@ -21,18 +28,10 @@
 ## � Highlights
 
 <p align="center">
-  <img src="./public/highlight-tiltshine.gif" alt="Tilt Shine Card Demo" width="340" height="240" style="margin:8px;" />
+  <img src="./public/highlight-tiltshine.gif" alt="Tilt Shine Card Demo" width="340" style="margin:8px;" />
   <img src="./public/highlight-swipecards.gif" alt="Swipe Cards Demo" width="340" height="240" style="margin:8px;" />
    <img src="./public/highlight-dragcards.gif" alt="Swipe Cards Demo" width="340" height="240" style="margin:8px;" />
 </p>
-
-> See all cards in action:
-
-<p align="center">
-  <img src="./public/demo-grid-screenshot.png" alt="Lodex Studio Cards Demo" />
-</p>
-
-👉 [Live Demo](https://lodexstudio-cards.vercel.app) · [Documentation](#) · [Report Bug](https://github.com/lodsa-ntos/lodexstudio-cards/issues)
 
 ---
 

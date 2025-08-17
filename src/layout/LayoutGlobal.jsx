@@ -1,6 +1,7 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
+import FooterSection from "../components/FooterSection";
 import 'react-toastify/dist/ReactToastify.css';
 
 function LayoutGlobal() {
@@ -10,6 +11,7 @@ function LayoutGlobal() {
       {/* Conteúdo principal */}
       <Outlet />
 
+      <FooterSection />
 
       {/* Toast Notifications */}
       <ToastContainer

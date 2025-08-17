@@ -4,6 +4,7 @@ import DragCards from "../components/cards/DragCards";
 import OutlineCards from "../components/cards/OutlineCards";
 import ColorChangeCards from "../components/cards/ColorChangeCards";
 import SwipeCards from "../components/cards/SwipeCards";
+import GlobalContainer from "../utils/GlobalContainer";
 
 export default function DemoGrid() {
   const gridItems = [
@@ -38,9 +39,19 @@ export default function DemoGrid() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-950 py-16 px-4">
-      <h1 className="text-4xl font-bold text-center text-white mb-10 tracking-tight">
+      <div className=" w-full max-w-7xl mx-auto px-12 inline-flex flex-col items-center justify-center gap-2 pb-20">
+        <img
+        src="/lodexstudio-logo-secundario.png"
+        alt="lodex.studio logo"
+        className="h-6 sm:h-8 md:h-10 lg:h-12 w-auto max-w-[180px] object-contain flex items-center justify-center"
+      />
+      <h1 className="text-4xl font-bold text-center text-white tracking-tight">
         Lodex Studio Cards Demo
       </h1>
+      <p className="text-center text-xl text-gray-400 py-5">
+        Collection of interactive cards made with React + Framer Motion + Tailwind.
+      </p>
+      </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 max-w-7xl mx-auto">
         {gridItems.map(({ Comp, label }, i) => (

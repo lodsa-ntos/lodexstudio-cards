@@ -38,12 +38,12 @@
 
 ## Individual Repositories
 Prefer using just one card?  
-- Tilt Shine → https://github.com/SEUUSER/lodex-tilt-card
-- Swipe Cards → https://github.com/SEUUSER/lodex-swipe-cards
-- Drag Cards → https://github.com/SEUUSER/lodex-drag-cards
-- Shimmer Border → https://github.com/SEUUSER/lodex-shimmer-border-card
-- Outline Cards → https://github.com/SEUUSER/lodex-outline-cards
-- Color Change → https://github.com/SEUUSER/lodex-colorchange-card
+- Tilt Shine → https://github.com/SEUUSER/lodexstudio-tilt-card
+- Swipe Cards → https://github.com/SEUUSER/lodexstudio-swipe-cards
+- Drag Cards → https://github.com/SEUUSER/lodexstudio-drag-cards
+- Shimmer Border → https://github.com/SEUUSER/lodexstudio-shimmer-border-card
+- Outline Cards → https://github.com/SEUUSER/lodexstudio-outline-cards
+- Color Change → https://github.com/SEUUSER/lodexstudio-colorchange-card
 
 ## ⚡ Features
 

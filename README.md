@@ -21,9 +21,9 @@
 ## � Highlights
 
 <p align="center">
-  <img src="./public/highlight-tiltshine.gif" alt="Tilt Shine Card Demo" width="340" style="margin:8px;" />
-  <img src="./public/highlight-swipecards.gif" alt="Swipe Cards Demo" width="340" style="margin:8px;" />
-   <img src="./public/highlight-dragcards.gif" alt="Swipe Cards Demo" width="340" style="margin:8px;" />
+  <img src="./public/highlight-tiltshine.gif" alt="Tilt Shine Card Demo" width="340" height="240" style="margin:8px;" />
+  <img src="./public/highlight-swipecards.gif" alt="Swipe Cards Demo" width="340" height="240" style="margin:8px;" />
+   <img src="./public/highlight-dragcards.gif" alt="Swipe Cards Demo" width="340" height="240" style="margin:8px;" />
 </p>
 
 > See all cards in action:

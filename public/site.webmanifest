@@ -1,0 +1,71 @@
+{
+  "name": "LodeX Studio - Lodney Santos Frontend Developer",
+  "short_name": "LodeX Studio",
+  "description": "Frontend Developer & UI Designer especializado em websites modernos em Portugal",
+  "lang": "pt-PT",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#004AAD",
+  "background_color": "#FFFFFF",
+  "categories": ["business", "productivity", "design", "developer", "portfolio"],
+  "icons": [
+    {
+      "src": "/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/web-app-manifest-512x512.png", 
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Portfólio",
+      "short_name": "Portfolio",
+      "description": "Ver projetos desenvolvidos",
+      "url": "/portfolio",
+      "icons": [{ "src": "/favicon-96x96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Serviços",
+      "short_name": "Serviços",
+      "description": "Conhecer os serviços oferecidos",
+      "url": "/servicos",
+      "icons": [{ "src": "/favicon-96x96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Contactar",
+      "short_name": "Contacto",
+      "description": "Iniciar um novo projeto",
+      "url": "/conversar",
+      "icons": [{ "src": "/favicon-96x96.png", "sizes": "96x96" }]
+    }
+  ],
+  "share_target": {
+    "action": "/conversar",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
+  "related_applications": [],
+  "prefer_related_applications": false
+}

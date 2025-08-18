@@ -1,14 +1,11 @@
+[![Monorepo](https://img.shields.io/badge/Monorepo-LodexStudioCards-blue)](https://github.com/lodsa-ntos/lodexstudio-cards)
+
+A 3D tilt and shine effect card component for React.  
+Part of the [Lodex Studio Cards](https://github.com/lodsa-ntos/lodexstudio-cards) monorepo.
 
 # @lodexstudio/tilt-card
 
-A 3D tilt and shine effect card component for React. Part of the [Lodex Studio Cards](https://github.com/lodsa-ntos/lodexstudio-cards) monorepo.
-
-[![NPM version](https://img.shields.io/npm/v/@lodexstudio/tilt-card?style=flat-square)](https://www.npmjs.com/package/@lodexstudio/tilt-card)
-[![MIT License](https://img.shields.io/npm/l/@lodexstudio/tilt-card?style=flat-square)](./LICENSE)
-
----
-
-## ✨ Features
+### ✨ Features
 
 - Modern React component
 - 3D tilt and shine effect
@@ -18,26 +15,21 @@ A 3D tilt and shine effect card component for React. Part of the [Lodex Studio C
 
 ---
 
-## 🚀 Demo
+### 🚀 Demo
 
-- [Main Demo Grid](https://lodexstudio-cards.vercel.app/)
+- [Main Demo Grid](https://lodexstudio-cards.vercel.app/)  
 - [Monorepo on GitHub](https://github.com/lodsa-ntos/lodexstudio-cards)
 
 ---
 
-## 📦 Installation
+### 📦 Installation
 
-```bash
-npm install @lodexstudio/tilt-card
-# or
-yarn add @lodexstudio/tilt-card
-# or
-pnpm add @lodexstudio/tilt-card
-```
+This package is part of the Lodex Studio Cards monorepo.  
+You can clone the [main repo](https://github.com/lodsa-ntos/lodexstudio-cards) and import it locally in your project.
 
 ---
 
-## 💻 Usage
+### 🛠 Usage
 
 ```jsx
 import { TiltShineCard } from "@lodexstudio/tilt-card";
@@ -49,20 +41,20 @@ export default function App() {
 
 ---
 
-## 📚 Related
+### 📚 Related
 
 - [Lodex Studio Cards Monorepo](https://github.com/lodsa-ntos/lodexstudio-cards)
 - [All Card Components](https://lodexstudio-cards.vercel.app/)
 
 ---
 
-## 🤝 Contributing
+### 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!  
 See the [main monorepo](https://github.com/lodsa-ntos/lodexstudio-cards) for details.
 
 ---
 
-## 📜 License
+### 📜 License
 
 MIT © LodeX Studio

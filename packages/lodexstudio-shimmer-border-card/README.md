@@ -1,43 +1,35 @@
 
+[![Monorepo](https://img.shields.io/badge/Monorepo-LodexStudioCards-blue)](https://github.com/lodsa-ntos/lodexstudio-cards)
+
+A shimmering border hover effect card component for React.
+Part of the [Lodex Studio Cards](https://github.com/lodsa-ntos/lodexstudio-cards) monorepo.
+
 # @lodexstudio/shimmer-border-card
 
-A card component with animated shimmer border for React. Part of the [Lodex Studio Cards](https://github.com/lodsa-ntos/lodexstudio-cards) monorepo.
+### ✨ Features
 
-[![NPM version](https://img.shields.io/npm/v/@lodexstudio/shimmer-border-card?style=flat-square)](https://www.npmjs.com/package/@lodexstudio/shimmer-border-card)
-[![MIT License](https://img.shields.io/npm/l/@lodexstudio/shimmer-border-card?style=flat-square)](./LICENSE)
-
----
-
-## ✨ Features
-
-- Modern React component
-- Animated shimmer border
-- Fully responsive and accessible
-- Easy to use and customize
+- Shimmering animated borders
+- Smooth hover transitions
+- Responsive and modern UI
 - MIT licensed
 
 ---
 
-## 🚀 Demo
+### 🚀 Demo
 
-- [Main Demo Grid](https://lodexstudio-cards.vercel.app/)
+- [Main Demo Grid](https://lodexstudio-cards.vercel.app/)  
 - [Monorepo on GitHub](https://github.com/lodsa-ntos/lodexstudio-cards)
 
 ---
 
-## 📦 Installation
+### 📦 Installation
 
-```bash
-npm install @lodexstudio/shimmer-border-card
-# or
-yarn add @lodexstudio/shimmer-border-card
-# or
-pnpm add @lodexstudio/shimmer-border-card
-```
+This package is part of the Lodex Studio Cards monorepo.  
+You can clone the [main repo](https://github.com/lodsa-ntos/lodexstudio-cards) and import it locally in your project.
 
 ---
 
-## 💻 Usage
+### 🛠 Usage
 
 ```jsx
 import { ShimmerBorderCard } from "@lodexstudio/shimmer-border-card";
@@ -49,20 +41,20 @@ export default function App() {
 
 ---
 
-## 📚 Related
+### 📚 Related
 
 - [Lodex Studio Cards Monorepo](https://github.com/lodsa-ntos/lodexstudio-cards)
 - [All Card Components](https://lodexstudio-cards.vercel.app/)
 
 ---
 
-## 🤝 Contributing
+### 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!  
 See the [main monorepo](https://github.com/lodsa-ntos/lodexstudio-cards) for details.
 
 ---
 
-## 📜 License
+### 📜 License
 
 MIT © LodeX Studio

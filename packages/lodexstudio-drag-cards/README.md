@@ -1,68 +1,60 @@
 
+[![Monorepo](https://img.shields.io/badge/Monorepo-LodexStudioCards-blue)](https://github.com/lodsa-ntos/lodexstudio-cards)
+
+A draggable card component for React.
+Part of the [Lodex Studio Cards](https://github.com/lodsa-ntos/lodexstudio-cards) monorepo.
+
 # @lodexstudio/drag-cards
 
-A draggable floating card component for React. Part of the [Lodex Studio Cards](https://github.com/lodsa-ntos/lodexstudio-cards) monorepo.
+### ✨ Features
 
-[![NPM version](https://img.shields.io/npm/v/@lodexstudio/drag-cards?style=flat-square)](https://www.npmjs.com/package/@lodexstudio/drag-cards)
-[![MIT License](https://img.shields.io/npm/l/@lodexstudio/drag-cards?style=flat-square)](./LICENSE)
-
----
-
-## ✨ Features
-
-- Modern React component
-- Draggable floating cards
-- Fully responsive and accessible
-- Easy to use and customize
+- Drag and drop interactions
+- Built with Framer Motion
+- Responsive and smooth animations
 - MIT licensed
 
 ---
 
-## 🚀 Demo
+### 🚀 Demo
 
-- [Main Demo Grid](https://lodexstudio-cards.vercel.app/)
+- [Main Demo Grid](https://lodexstudio-cards.vercel.app/)  
 - [Monorepo on GitHub](https://github.com/lodsa-ntos/lodexstudio-cards)
 
 ---
 
-## 📦 Installation
+### 📦 Installation
 
-```bash
-npm install @lodexstudio/drag-cards
-# or
-yarn add @lodexstudio/drag-cards
-# or
-pnpm add @lodexstudio/drag-cards
-```
+This package is part of the Lodex Studio Cards monorepo.  
+You can clone the [main repo](https://github.com/lodsa-ntos/lodexstudio-cards) and import it locally in your project.
 
 ---
 
-## 💻 Usage
+### 🛠 Usage
 
 ```jsx
-import { DragCards } from "@lodexstudio/drag-cards";
+import { DragCard } from "@lodexstudio/drag-cards";
 
 export default function App() {
-  return <DragCards />;
+  return <DragCard />;
 }
 ```
 
 ---
 
-## 📚 Related
+### 📚 Related
 
 - [Lodex Studio Cards Monorepo](https://github.com/lodsa-ntos/lodexstudio-cards)
 - [All Card Components](https://lodexstudio-cards.vercel.app/)
 
 ---
 
-## 🤝 Contributing
+### 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!  
 See the [main monorepo](https://github.com/lodsa-ntos/lodexstudio-cards) for details.
 
 ---
 
-## 📜 License
+### 📜 License
 
 MIT © LodeX Studio

@@ -1,49 +1,51 @@
 
-# <h1 align="center"> Lodex Studio Cards </h1>
+<!-- SEO: Meta Description for GitHub and search engines -->
+Lodex Studio Cards: A collection of beautiful, interactive React card components with motion, micro-interactions, and modern UI. Perfect for portfolios, landing pages, and creative showcases. Built with React, Tailwind CSS, and Framer Motion.
 
-<p align="center">
-  <a href="#"><img src="https://img.shields.io/github/stars/lodsa-ntos/lodexstudio-cards?style=flat-square"></a>
-  <a href="#"><img src="https://img.shields.io/github/forks/lodsa-ntos/lodexstudio-cards?style=flat-square"></a>
-  <a href="#"><img src="https://img.shields.io/github/issues/lodsa-ntos/lodexstudio-cards?style=flat-square"></a>
-  <a href="#"><img src="https://img.shields.io/github/license/lodsa-ntos/lodexstudio-cards?style=flat-square"></a>
-</p>
+# Lodex Studio Cards – React UI Card Components
 
-> See all cards in action:
-<p align="center">
-  <img src="./public/demo-grid-screenshot.png" alt="Lodex Studio Cards Demo" />
-</p>
+![GitHub stars](https://img.shields.io/github/stars/lodsa-ntos/lodexstudio-cards?style=flat-square "GitHub Stars")
+![GitHub forks](https://img.shields.io/github/forks/lodsa-ntos/lodexstudio-cards?style=flat-square "GitHub Forks")
+![GitHub issues](https://img.shields.io/github/issues/lodsa-ntos/lodexstudio-cards?style=flat-square "GitHub Issues")
+![MIT License](https://img.shields.io/github/license/lodsa-ntos/lodexstudio-cards?style=flat-square "MIT License")
 
-👉 [Live Demo](https://lodexstudio-cards.vercel.app) | [Docs](#) | [Report Bug](https://github.com/lodsa-ntos/lodexstudio-cards/issues)
+## See all cards in action
 
-## � Overview
+![Lodex Studio Cards Demo Grid](./public/demo-grid-screenshot.png "Lodex Studio Cards Demo Grid")
 
-**Lodex Studio Cards** is a collection of 6 interactive components for React, focusing on **motion, micro-interactions, and modern UI**. Ideal for **portfolios, landing pages, and creative showcases**.
+[Live Demo](https://lodexstudio-cards.vercel.app) | [Report Bug](https://github.com/lodsa-ntos/lodexstudio-cards/issues)
+
+## Overview
+
+**Lodex Studio Cards** is a collection of 6 beautiful, interactive React card components, focusing on motion, micro-interactions, and modern UI. Ideal for portfolios, landing pages, and creative showcases.
+
+**Keywords:** react, cards, ui, animation, components, tailwindcss, framer-motion, micro-interactions, portfolio, open source
 
 ## 🎥 Preview
 
-<p align="center">
-  <img src="./public/highlight-tiltshine.gif" alt="Tilt Shine Card React demo animation" width="340" style="margin:8px;" />
-  <img src="./public/highlight-swipecards.gif" alt="Swipeable Cards React demo" width="340" height="240" style="margin:8px;" />
-   <img src="./public/highlight-dragcards.gif" alt="Drag Cards React Demo" width="340" height="240" style="margin:8px;" />
-</p>
+![Tilt Shine Card React demo animation](./public/highlight-tiltshine.gif)
+![Swipeable Cards React demo](./public/highlight-swipecards.gif)
+![Drag Cards React Demo](./public/highlight-dragcards.gif)
 
 ## 🎨 Card Components
 
 - [Tilt Shine Card](https://github.com/lodsa-ntos/lodexstudio-tilt-card) — 3D tilt and shine effect
-- [Swipe Cards](https://github.com/lodsa-ntos/swipe-cards) — Tinder-style swipeable cards
-- [Shimmer Border Card](https://github.com/lodsa-ntos/shimmer-border-card) — Animated shimmer border
-- [Drag Cards](https://github.com/lodsa-ntos/drag-cards) — Draggable floating cards
-- [Outline Cards](https://github.com/lodsa-ntos/outline-cards) — Minimal outline hover cards
-- [Color Change Cards](https://github.com/lodsa-ntos/color-change-cards) — Colorful hover transitions
+- [Swipe Cards](https://github.com/lodsa-ntos/lodexstudio-swipe-cards) — Tinder-style swipeable cards
+- [Shimmer Border Card](https://github.com/lodsa-ntos/lodexstudio-shimmer-border-card) — Animated shimmer border
+- [Drag Cards](https://github.com/lodsa-ntos/lodexstudio-drag-cards) — Draggable floating cards
+- [Outline Cards](https://github.com/lodsa-ntos/lodexstudio-outline-cards) — Minimal outline hover cards
+- [Color Change Cards](https://github.com/lodsa-ntos/lodexstudio-colorchange-card) — Colorful hover transitions
 
 ## Individual Repositories
+
 Prefer using just one card?  
-- Tilt Shine → https://github.com/SEUUSER/lodexstudio-tilt-card
-- Swipe Cards → https://github.com/SEUUSER/lodexstudio-swipe-cards
-- Drag Cards → https://github.com/SEUUSER/lodexstudio-drag-cards
-- Shimmer Border → https://github.com/SEUUSER/lodexstudio-shimmer-border-card
-- Outline Cards → https://github.com/SEUUSER/lodexstudio-outline-cards
-- Color Change → https://github.com/SEUUSER/lodexstudio-colorchange-card
+
+- Tilt Shine → <https://github.com/lodsa-ntos/lodexstudio-tilt-card>
+- Swipe Cards → <https://github.com/lodsa-ntos/lodexstudio-swipe-cards>
+- Drag Cards → <https://github.com/lodsa-ntos/lodexstudio-drag-cards>
+- Shimmer Border → <https://github.com/lodsa-ntos/lodexstudio-shimmer-border-card>
+- Outline Cards → <https://github.com/lodsa-ntos/lodexstudio-outline-cards>
+- Color Change → <https://github.com/lodsa-ntos/lodexstudio-colorchange-card>
 
 ## ⚡ Features
 
@@ -99,7 +101,6 @@ Distributed under the MIT License. See [LICENSE](./LICENSE) for details.
 
 ---
 
-<p align="center">
-  ⭐ If this project helped you, leave a star on GitHub!
-  Made with ❤️ by <a href="https://lodexstudio.com">Lodex Studio</a>
-</p>
+⭐ If this project helped you, leave a star on GitHub!
+
+Made with ❤️ by [Lodex Studio](https://lodexstudio.com)

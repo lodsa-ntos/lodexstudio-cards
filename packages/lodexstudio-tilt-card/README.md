@@ -6,8 +6,9 @@ Part of the [Lodex Studio Cards](https://github.com/lodsa-ntos/lodexstudio-cards
 # @lodexstudio/tilt-card
 
 ## 🎥 Preview
+
 <p align="center">
-  <img src="/highlight-tiltshine.gif" alt="Tilt Shine Card React demo animation" width="340" style="margin:8px;" />
+  <img src="../../public//highlight-tiltshine.gif" alt="Tilt Shine Card React demo animation" width="340" style="margin:8px;" />
 </p>
 
 ### ✨ Features

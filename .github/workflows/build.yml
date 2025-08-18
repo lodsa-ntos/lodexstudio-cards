@@ -1,23 +1,59 @@
 name: Build Monorepo
+
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
+    paths-ignore:
+      - "**/*.md"
+      - "**/*.png"
+      - "**/*.jpg"
+      - "**/*.gif"
+      - ".github/ISSUE_TEMPLATE/**"
   pull_request:
+
+# avoid long queues; cancel old runs on the same branch/PR
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build:
+    name: Install & Build (Node ${{ matrix.node }})
     runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        node: [20]   # you can add 18 if you want to test it too
+
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: ${{ matrix.node }}
+          cache: npm
 
-      - name: Install deps
-        run: npm install
+      - name: Install deps (root)
+        run: npm ci
 
-      - name: Build all packages
+      # optional: if you have lint at the root, don't fail if it doesn't exist
+      - name: Lint (optional)
+        run: npm run lint --if-present
+
+      - name: Build all packages (workspaces)
         run: npm run build:pkgs
+
+      - name: Build demo (root)
+        run: npm run build
+
+      # save the demo dist for quick download on GitHub
+      - name: Upload demo dist
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: demo-dist
+          path: dist
+          if-no-files-found: ignore

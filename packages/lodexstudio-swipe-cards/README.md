@@ -6,6 +6,12 @@ Part of the [Lodex Studio Cards](https://github.com/lodsa-ntos/lodexstudio-cards
 
 # @lodexstudio/swipe-cards
 
+## 🎥 Preview
+
+<p align="center">
+  <img src="./preview.gif" alt="Tilt Shine Card React demo animation" width="340" style="margin:8px;" />
+</p>
+
 ### ✨ Features
 
 - Tinder-style swipe gestures

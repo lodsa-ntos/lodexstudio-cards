@@ -29,7 +29,7 @@
 
 ## 🎨 Card Components
 
-- [Tilt Shine Card](https://github.com/lodsa-ntos/tilt-shine-card) — 3D tilt and shine effect
+- [Tilt Shine Card](https://github.com/lodsa-ntos/lodexstudio-tilt-card) — 3D tilt and shine effect
 - [Swipe Cards](https://github.com/lodsa-ntos/swipe-cards) — Tinder-style swipeable cards
 - [Shimmer Border Card](https://github.com/lodsa-ntos/shimmer-border-card) — Animated shimmer border
 - [Drag Cards](https://github.com/lodsa-ntos/drag-cards) — Draggable floating cards

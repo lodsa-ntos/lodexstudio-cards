@@ -6,6 +6,12 @@ Part of the [Lodex Studio Cards](https://github.com/lodsa-ntos/lodexstudio-cards
 
 # @lodexstudio/shimmer-border-card
 
+## 🎥 Preview
+
+<p align="center">
+  <img src="./preview.gif" alt="Tilt Shine Card React demo animation" width="540" style="margin:8px;" />
+</p>
+
 ### ✨ Features
 
 - Shimmering animated borders

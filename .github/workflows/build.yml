@@ -57,3 +57,12 @@ jobs:
           name: demo-dist
           path: dist
           if-no-files-found: ignore
+
+          # optional: if you have a specific folder structure, you can adjust the path
+          # What this workflow does
+          #  Installs dependencies in the root with npm ci (fast and reproducible).
+          #  Compiles the monorepo packages with your script: npm run build:pkgs.
+          #  Compiles the root demo with npm run build.
+          #  Automatically caches ~/.npm to speed up executions.
+          #  Ignores commits that only affect images/markdown/templates.
+          #  Attaches the demo's dist/ as an artefact (useful for viewing the resulting build).
